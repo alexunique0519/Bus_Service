@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1fabf96088744f6a960fa554ab1b059f" Name="Diagram1">
+        <EntityTypeShape EntityType="BusServiceModel.bus" Width="1.5" PointX="6.125" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.busRoute" Width="1.5" PointX="3.875" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.busStop" Width="1.5" PointX="3.875" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.driver" Width="1.5" PointX="10.875" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.routeSchedule" Width="1.5" PointX="6.125" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.routeStop" Width="1.5" PointX="1.125" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.sysdiagram" Width="1.5" PointX="8.875" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.trip" Width="1.5" PointX="8.375" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusServiceModel.tripStop" Width="1.5" PointX="10.625" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="BusServiceModel.FK_trip_bus" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_routeSchedule_busRoute" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_routeStop_busRoute" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_routeStop_busStop" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_tripStop_busStop" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_trip_driver" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_trip_routeSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="BusServiceModel.FK_tripStop_trip" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

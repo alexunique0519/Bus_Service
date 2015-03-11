@@ -1,0 +1,65 @@
+﻿@model YYBusService04.Models.busStop
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create a New Bus Stop</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>busStop</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.busStopNumber, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.busStopNumber)
+                @Html.ValidationMessageFor(model => model.busStopNumber)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.location, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.location)
+                @Html.ValidationMessageFor(model => model.location)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.locationHash, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.locationHash)
+                @Html.ValidationMessageFor(model => model.locationHash)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.goingDowntown, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.goingDowntown)
+                @Html.ValidationMessageFor(model => model.goingDowntown)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

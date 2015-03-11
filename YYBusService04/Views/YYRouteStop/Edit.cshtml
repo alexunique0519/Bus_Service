@@ -1,0 +1,63 @@
+﻿@model YYBusService04.Models.routeStop
+
+@{
+    ViewBag.Title = "Edit";
+    var stopName = Model.busStop.location;
+     
+}
+
+<h2>Edit for @stopName</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>routeStop</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.routeStopId)
+        @Html.HiddenFor(model => model.busRouteCode)
+        
+       
+
+        @*<div class="form-group">
+    @Html.LabelFor(model => model.busRouteCode, "busRouteCode", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("busRouteCode", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.busRouteCode, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.busStopNumber, "busStopNumber", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("busStopNumber", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.busStopNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    
+        <div class="form-group">
+            @Html.LabelFor(model => model.offsetMinutes, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.offsetMinutes, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.offsetMinutes, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

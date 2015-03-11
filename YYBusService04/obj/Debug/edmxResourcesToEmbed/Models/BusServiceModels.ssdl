@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bus">
+    <Key>
+      <PropertyRef Name="busId" />
+    </Key>
+    <Property Name="busId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="busNumber" Type="int" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="comments" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="busRoute">
+    <Key>
+      <PropertyRef Name="busRouteCode" />
+    </Key>
+    <Property Name="busRouteCode" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="routeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="busStop">
+    <Key>
+      <PropertyRef Name="busStopNumber" />
+    </Key>
+    <Property Name="busStopNumber" Type="int" Nullable="false" />
+    <Property Name="location" Type="nvarchar" MaxLength="50" />
+    <Property Name="locationHash" Type="int" Nullable="false" />
+    <Property Name="goingDowntown" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="driver">
+    <Key>
+      <PropertyRef Name="driverId" />
+    </Key>
+    <Property Name="driverId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="lastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="fullName" Type="nvarchar" MaxLength="100" />
+    <Property Name="homePhone" Type="nvarchar" MaxLength="12" />
+    <Property Name="workPhone" Type="nvarchar" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="routeSchedule">
+    <Key>
+      <PropertyRef Name="routeScheduleId" />
+    </Key>
+    <Property Name="routeScheduleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="busRouteCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="startTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="isWeekDay" Type="bit" Nullable="false" />
+    <Property Name="comments" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="routeStop">
+    <Key>
+      <PropertyRef Name="routeStopId" />
+    </Key>
+    <Property Name="routeStopId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="busRouteCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="busStopNumber" Type="int" />
+    <Property Name="offsetMinutes" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="trip">
+    <Key>
+      <PropertyRef Name="tripId" />
+    </Key>
+    <Property Name="tripId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="routeScheduleId" Type="int" Nullable="false" />
+    <Property Name="tripDate" Type="datetime" Nullable="false" />
+    <Property Name="driverId" Type="int" Nullable="false" />
+    <Property Name="busId" Type="int" Nullable="false" />
+    <Property Name="comments" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tripStop">
+    <Key>
+      <PropertyRef Name="tripStopId" />
+    </Key>
+    <Property Name="tripStopId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tripId" Type="int" Nullable="false" />
+    <Property Name="busStopNumber" Type="int" Nullable="false" />
+    <Property Name="tripStopTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="comments" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_routeSchedule_busRoute">
+    <End Role="busRoute" Type="Self.busRoute" Multiplicity="0..1" />
+    <End Role="routeSchedule" Type="Self.routeSchedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="busRoute">
+        <PropertyRef Name="busRouteCode" />
+      </Principal>
+      <Dependent Role="routeSchedule">
+        <PropertyRef Name="busRouteCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_routeStop_busRoute">
+    <End Role="busRoute" Type="Self.busRoute" Multiplicity="0..1" />
+    <End Role="routeStop" Type="Self.routeStop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="busRoute">
+        <PropertyRef Name="busRouteCode" />
+      </Principal>
+      <Dependent Role="routeStop">
+        <PropertyRef Name="busRouteCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_routeStop_busStop">
+    <End Role="busStop" Type="Self.busStop" Multiplicity="0..1" />
+    <End Role="routeStop" Type="Self.routeStop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="busStop">
+        <PropertyRef Name="busStopNumber" />
+      </Principal>
+      <Dependent Role="routeStop">
+        <PropertyRef Name="busStopNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trip_bus">
+    <End Role="bus" Type="Self.bus" Multiplicity="1" />
+    <End Role="trip" Type="Self.trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus">
+        <PropertyRef Name="busId" />
+      </Principal>
+      <Dependent Role="trip">
+        <PropertyRef Name="busId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trip_driver">
+    <End Role="driver" Type="Self.driver" Multiplicity="1" />
+    <End Role="trip" Type="Self.trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="driver">
+        <PropertyRef Name="driverId" />
+      </Principal>
+      <Dependent Role="trip">
+        <PropertyRef Name="driverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_trip_routeSchedule">
+    <End Role="routeSchedule" Type="Self.routeSchedule" Multiplicity="1" />
+    <End Role="trip" Type="Self.trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="routeSchedule">
+        <PropertyRef Name="routeScheduleId" />
+      </Principal>
+      <Dependent Role="trip">
+        <PropertyRef Name="routeScheduleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tripStop_busStop">
+    <End Role="busStop" Type="Self.busStop" Multiplicity="1" />
+    <End Role="tripStop" Type="Self.tripStop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="busStop">
+        <PropertyRef Name="busStopNumber" />
+      </Principal>
+      <Dependent Role="tripStop">
+        <PropertyRef Name="busStopNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tripStop_trip">
+    <End Role="trip" Type="Self.trip" Multiplicity="1" />
+    <End Role="tripStop" Type="Self.tripStop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="trip">
+        <PropertyRef Name="tripId" />
+      </Principal>
+      <Dependent Role="tripStop">
+        <PropertyRef Name="tripId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BusServiceModelStoreContainer">
+    <EntitySet Name="bus" EntityType="Self.bus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="busRoute" EntityType="Self.busRoute" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="busStop" EntityType="Self.busStop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="driver" EntityType="Self.driver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="routeSchedule" EntityType="Self.routeSchedule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="routeStop" EntityType="Self.routeStop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="trip" EntityType="Self.trip" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tripStop" EntityType="Self.tripStop" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_routeSchedule_busRoute" Association="Self.FK_routeSchedule_busRoute">
+      <End Role="busRoute" EntitySet="busRoute" />
+      <End Role="routeSchedule" EntitySet="routeSchedule" />
+    </AssociationSet>
+    <AssociationSet Name="FK_routeStop_busRoute" Association="Self.FK_routeStop_busRoute">
+      <End Role="busRoute" EntitySet="busRoute" />
+      <End Role="routeStop" EntitySet="routeStop" />
+    </AssociationSet>
+    <AssociationSet Name="FK_routeStop_busStop" Association="Self.FK_routeStop_busStop">
+      <End Role="busStop" EntitySet="busStop" />
+      <End Role="routeStop" EntitySet="routeStop" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trip_bus" Association="Self.FK_trip_bus">
+      <End Role="bus" EntitySet="bus" />
+      <End Role="trip" EntitySet="trip" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trip_driver" Association="Self.FK_trip_driver">
+      <End Role="driver" EntitySet="driver" />
+      <End Role="trip" EntitySet="trip" />
+    </AssociationSet>
+    <AssociationSet Name="FK_trip_routeSchedule" Association="Self.FK_trip_routeSchedule">
+      <End Role="routeSchedule" EntitySet="routeSchedule" />
+      <End Role="trip" EntitySet="trip" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tripStop_busStop" Association="Self.FK_tripStop_busStop">
+      <End Role="busStop" EntitySet="busStop" />
+      <End Role="tripStop" EntitySet="tripStop" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tripStop_trip" Association="Self.FK_tripStop_trip">
+      <End Role="trip" EntitySet="trip" />
+      <End Role="tripStop" EntitySet="tripStop" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

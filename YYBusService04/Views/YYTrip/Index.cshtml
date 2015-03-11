@@ -1,0 +1,55 @@
+﻿@model IEnumerable<YYBusService04.Models.ViewModels.TripBusDriverView>
+
+@{
+    var Title = "Bus Trips for " + Session["routeCode"] + " - " + Session["routeName"]; 
+}
+
+
+<h2>@Title</h2>
+
+<p>
+    @Html.ActionLink("Create New Trip", "Create")
+</p>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Date
+        </th>
+        <th>
+            Start Time
+        </th>
+        <th>
+            Driver
+        </th>
+        <th>
+           Bus #
+        </th>
+        <th>
+            Comments
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tripDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.startTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.driverName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.busNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.comments)
+            </td>
+        </tr>
+    }
+
+</table>

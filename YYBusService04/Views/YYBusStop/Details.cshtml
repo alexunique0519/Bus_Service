@@ -1,0 +1,42 @@
+﻿@model YYBusService04.Models.busStop
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>busStop</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.locationHash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.locationHash)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.goingDowntown)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.goingDowntown)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.busStopNumber }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

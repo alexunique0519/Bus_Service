@@ -1,0 +1,42 @@
+﻿@model IEnumerable<YYBusService04.Models.busRoute>
+
+@{
+    ViewBag.Title = "Bus Routes Listing";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.busRouteCode)
+        </th>
+            
+        <th>
+            @Html.DisplayNameFor(model => model.routeName)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.busRouteCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.routeName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.busRouteCode }) |
+            @Html.ActionLink("Details", "Details", new { id=item.busRouteCode }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.busRouteCode }) |
+            @Html.ActionLink("RouteStop", "index", "YYRouteStop", new { id = item.busRouteCode, name = item.routeName }, null) |
+            @Html.ActionLink("Monitored Trips", "index", "YYTrip", new  {busRouteCode = item.busRouteCode, routeName=item.routeName}, null)
+        </td>
+    </tr>
+}
+
+</table>

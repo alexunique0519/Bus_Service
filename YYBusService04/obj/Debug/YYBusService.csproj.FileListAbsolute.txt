@@ -1,0 +1,328 @@
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\YYBusService.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\YYBusService.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\YYBusService.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Antlr3.Runtime.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\EntityFramework.SqlServer.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Web.Infrastructure.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Owin.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Helpers.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Mvc.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Optimization.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Razor.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.WebPages.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\WebGrease.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Helpers.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Mvc.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Optimization.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.Razor.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.WebPages.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Antlr3.Runtime.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\EntityFramework.SqlServer.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\obj\Debug\YYBusService.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\obj\Debug\YYBusService.dll
+c:\users\administrator\documents\visual studio 2013\Projects\YYBusService\YYBusService\obj\Debug\YYBusService.pdb
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\YYBusService.dll.config
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\YYBusService.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\YYBusService.pdb
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Antlr3.Runtime.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\EntityFramework.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\EntityFramework.SqlServer.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Newtonsoft.Json.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Owin.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Helpers.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Mvc.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Optimization.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Razor.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.WebPages.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\WebGrease.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Helpers.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Mvc.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Optimization.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.Razor.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.WebPages.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Antlr3.Runtime.pdb
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Newtonsoft.Json.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\EntityFramework.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\EntityFramework.SqlServer.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\obj\Debug\YYBusService.dll
+C:\Users\Yyan-cc\Desktop\YYBusService\YYBusService\obj\Debug\YYBusService.pdb
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\YYBusService.dll.config
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\YYBusService.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\YYBusService.pdb
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Antlr3.Runtime.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\EntityFramework.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\EntityFramework.SqlServer.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Web.Infrastructure.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Newtonsoft.Json.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Owin.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Helpers.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Mvc.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Optimization.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Razor.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.WebPages.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\WebGrease.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Helpers.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Mvc.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Optimization.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.Razor.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.WebPages.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Antlr3.Runtime.pdb
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Newtonsoft.Json.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\EntityFramework.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\EntityFramework.SqlServer.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\obj\Debug\YYBusService.dll
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\obj\Debug\YYBusService.pdb
+G:\Computer Applications Development\ASP\YYBusService\YYBusService\obj\Debug\YYBusService.csprojResolveAssemblyReference.cache
+G:\Computer Applications Development\YYBusService\YYBusService\bin\YYBusService.dll.config
+G:\Computer Applications Development\YYBusService\YYBusService\bin\YYBusService.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\YYBusService.pdb
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Antlr3.Runtime.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\EntityFramework.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\EntityFramework.SqlServer.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Web.Infrastructure.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Newtonsoft.Json.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Owin.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Helpers.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Mvc.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Optimization.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Razor.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.WebPages.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\WebGrease.dll
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Helpers.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Mvc.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Optimization.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.Razor.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.WebPages.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Antlr3.Runtime.pdb
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Newtonsoft.Json.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\EntityFramework.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\EntityFramework.SqlServer.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Computer Applications Development\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Computer Applications Development\YYBusService\YYBusService\obj\Debug\YYBusService.dll
+G:\Computer Applications Development\YYBusService\YYBusService\obj\Debug\YYBusService.pdb
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\YYBusService.dll.config
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\YYBusService.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\YYBusService.pdb
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Antlr3.Runtime.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\EntityFramework.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\EntityFramework.SqlServer.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Web.Infrastructure.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Newtonsoft.Json.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Owin.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Helpers.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Mvc.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Optimization.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Razor.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.WebPages.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\WebGrease.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Helpers.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Mvc.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Optimization.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.Razor.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.WebPages.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.WebPages.Deployment.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\System.Web.WebPages.Razor.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Antlr3.Runtime.pdb
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Newtonsoft.Json.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\EntityFramework.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\EntityFramework.SqlServer.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Google.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\obj\Debug\YYBusService.csprojResolveAssemblyReference.cache
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\obj\Debug\YYBusService.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService\YYBusService\obj\Debug\YYBusService.pdb
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\YYBusService.dll.config
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\YYBusService.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\YYBusService.pdb
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Antlr3.Runtime.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\EntityFramework.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\EntityFramework.SqlServer.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Google.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Web.Infrastructure.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Newtonsoft.Json.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Owin.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Helpers.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Mvc.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Optimization.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Razor.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.WebPages.Deployment.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.WebPages.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.WebPages.Razor.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\WebGrease.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Helpers.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Mvc.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Optimization.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.Razor.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.WebPages.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.WebPages.Deployment.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\System.Web.WebPages.Razor.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Antlr3.Runtime.pdb
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Newtonsoft.Json.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\EntityFramework.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\EntityFramework.SqlServer.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Google.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\obj\Debug\YYBusService.csprojResolveAssemblyReference.cache
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\obj\Debug\YYBusService.dll
+D:\Conestoga\Computer Applications Development\MS Web Dev\YYBusService - 副本\YYBusService\obj\Debug\YYBusService.pdb

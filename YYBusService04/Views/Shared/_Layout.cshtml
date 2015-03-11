@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top ">
+        
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img class="navbar-brand" id="logo" src="../../Images/logo.jpg" alt="logo" height="150" width="150" />
+                @Html.ActionLink("YY Bus Service", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("BusRoutes", "Index", "YYBusRoute")</li>
+                    <li>@Html.ActionLink("Stops", "Index", "YYBusStop")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <div class="alert alert-@TempData["messageType"]" role="alert">
+            <a href="#" class="alert-link">@TempData["message"]</a>
+        </div>
+        @RenderBody()
+        <hr />
+        <footer>
+<p>&copy; <a href="mailto:yyan-cc@conestogac.on.ca">Yan Yan-Section 2</a> <span id="about">@Html.ActionLink("About", "About", "Home")</span> <span id="contact">@Html.ActionLink("Contact", "Contact", "Home")</span></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

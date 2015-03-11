@@ -1,0 +1,58 @@
+﻿@model IEnumerable<YYBusService04.Models.busStop>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Bus Stop Listing</h2>
+
+<p>
+    @Html.ActionLink("Create a New Bus Stop", "Create")
+</p>
+<p>
+    Sorting By:
+    @Html.ActionLink("Stop Number/", "Sorting", new { sortingMethodId = 1 })
+    @Html.ActionLink("Stop Location/", "Sorting", new { sortingMethodId = 2 })
+    @Html.ActionLink("Stop Location Hash", "Sorting", new { sortingMethodId = 3 })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.busStopNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.locationHash)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.goingDowntown)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.busStopNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.locationHash)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.goingDowntown)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.busStopNumber }) |
+            @Html.ActionLink("Details", "Details", new { id=item.busStopNumber }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.busStopNumber }) |
+            @Html.ActionLink("Route Schedule", "RouteSelector", new {busStopNumber = item.busStopNumber})
+        </td>
+    </tr>
+}
+
+</table>

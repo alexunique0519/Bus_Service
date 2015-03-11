@@ -1,0 +1,57 @@
+﻿@model YYBusService04.Models.trip
+
+@{
+    var title = "New Trip for " + Session["routeCode"] + " - " + Session["routeName"];
+}
+
+<h2>@title</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    
+    @Html.EditorForModel()
+    
+    
+    @*add the routeScheduleId dropdownlist*@
+    <div>
+        @Html.LabelFor(model => model.routeScheduleId)
+        @Html.DropDownListFor(m => m.routeScheduleId, ViewBag.routeScheduleId as SelectList)
+        @Html.ValidationMessageFor(m => m.routeScheduleId, "")
+    </div>
+    
+    @*add the driverId dropdownlist*@
+    <div>
+        @Html.LabelFor(m => m.driverId)
+        @Html.DropDownListFor(m => m.driverId, ViewBag.driversList as SelectList)
+        @Html.ValidationMessageFor(m => m.driverId, "")
+    </div>
+    
+     int i = 1;
+     <div>
+        @Html.LabelFor(model => model.busId)
+     </div>
+     foreach (var item in ViewBag.busses)
+     {
+        string busNumber = item.busNumber.ToString();
+        string ItemId = "bus" + busNumber;
+        string busId = item.busId.ToString();
+         
+        @Html.RadioButton(name: "busId", value: busId, htmlAttributes: new { id = ItemId })
+        @Html.Label(expression: ItemId, labelText: busNumber);         
+    
+        if(i%5 == 0)
+        {
+            <br/>    
+        }
+
+        i++;
+     }
+      @Html.ValidationMessageFor(m => m.busId, "")
+    
+    <input type="submit" value="Create Trip">
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

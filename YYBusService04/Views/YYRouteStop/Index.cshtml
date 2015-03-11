@@ -1,0 +1,47 @@
+﻿@model IEnumerable<YYBusService04.Models.routeStop>
+
+@{
+    ViewBag.Title = "Route Stops Listing";
+    var heading = "Stops for " + ViewBag.routeCode + "-" + ViewBag.routeName;
+    var createHeading = "Create New " + heading;
+}
+
+<h2>@heading</h2>
+
+<p>
+    @Html.ActionLink((string)createHeading, "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model =>model.busStopNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.busStop.location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.offsetMinutes)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.busStopNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.busStop.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.offsetMinutes)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.routeStopId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.routeStopId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.routeStopId })
+        </td>
+    </tr>
+}
+
+</table>

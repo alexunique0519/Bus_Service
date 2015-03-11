@@ -1,0 +1,49 @@
+﻿@model YYBusService04.Models.routeStop
+
+@{
+    ViewBag.Title = "Delete";
+    var stopName = Model.busStop.location;
+}
+
+<h2>Delete Stop-@stopName</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>routeStop</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.offsetMinutes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.offsetMinutes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.busRoute.routeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.busRoute.routeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.busStop.location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.busStop.location)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

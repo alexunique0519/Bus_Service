@@ -1,0 +1,43 @@
+﻿
+@model IEnumerable<YYBusService04.Models.RouteStopScheduleView>
+
+@{
+    ViewBag.Title = "Stop: " + Model.First().busStopNumber + " - " + Model.First().location;
+    var routeCode = Model.First().busRouteCode;
+    var routeName = Model.First().routeName;
+    var routeInfo = "Route: " + routeCode + " - " + routeName;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h4>@routeInfo</h4>
+
+<h4>Mon-Fri</h4>
+
+@foreach (var item in Model)
+{
+    if(item.isWeekday)
+    {
+         <ul>
+            <li>
+                @item.arriveTime;
+            </li>
+        </ul>
+    }
+        
+}    
+
+<h4>Sat-Sun & Holiday</h4>
+
+@foreach (var item in Model)
+{
+    if (!item.isWeekday)
+    {
+        <ul>
+            <li>
+                @item.arriveTime;
+            </li>
+        </ul>
+    }
+
+}    

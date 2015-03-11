@@ -1,0 +1,27 @@
+﻿@model YYBusService04.Models.busRoute
+
+@{
+    ViewBag.Title = "Details";
+    var code = Model.busRouteCode;
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>busRoute-BusRouteId: @code</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.routeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.routeName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.busRouteCode }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
